@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript task 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Расчет общей суммы заказа</h1>
+    <div id="order-form">
+        <input type="text" id="product-input" placeholder="Название продукта">
+        <input type="number" id="price-input" placeholder="Цена продукта">
+        <button onclick="addOrder()">Добавить заказ</button>
+    </div>
+    <ul id="order-list">
+    </ul>
+    <button onclick="calculateOrderTotal()">Рассчитать общую сумму</button>
+    <div id="result"></div>
+
+    <script src="./build/index.js"></script>
+</body>
+</html>
